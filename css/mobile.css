@@ -16,6 +16,10 @@ body {
   padding: 15px 0px;
 }
 
+.container h2{
+  margin: 0px;
+}
+
 /* MENU: NAVBAR/HEADER */
 
 nav {
@@ -87,7 +91,8 @@ nav ul li a:hover{
   padding-bottom: 15px;
 }
 #section-coffee h2{
-  margin: 20px, 0px, 0px, 10px;
+
+  margin-top: 20px;
 }
 #section-coffe p{
   justify-content: flex-start;
@@ -98,7 +103,7 @@ nav ul li a:hover{
 }
 
 .product {
-  padding: 0 15px;
+  padding: 0px;
 }
 .product img {
   width: 100%;
@@ -122,6 +127,7 @@ nav ul li a:hover{
 .contact-form form {
   text-align: left;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .contact-form form .form-control {
     
